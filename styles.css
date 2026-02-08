@@ -1,0 +1,50 @@
+body{
+    background: url(images/Wallpaper.png) repeat-y center center fixed;
+}
+
+.nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #333;
+    padding: 15px;
+}
+
+.nav a{
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+}
+
+.nav a:hover{
+    text-decoration:wavy underline;
+    color: #21b802;
+    font-size: 19px;
+}
+
+.nav ul{
+    display: flex;
+    list-style: none;
+}
+
+/* ======================================================== */
+
+.inicio-info{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 2rem;
+}
+
+.inicio{
+    display: flex;
+    height: 95vh;
+    justify-content:space-evenly;
+}
+.inicio img{
+    display: flex;
+    height: 50%;
+    width: auto;
+    margin-left: 50px;
+}
