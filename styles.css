@@ -3,19 +3,26 @@ body{
     background-size: cover;
 }
 
+@font-face {
+    font-family: Demo;
+    src: url(fonts/demonized/Demonized.ttf);
+}
+
 html{
     scroll-behavior: smooth;
 }
 
 .nav{
     display: flex;
+    background-image: url(images/Wallpaper.png);
+    background-size: cover;
     /* justify-content: center; */
     align-items: center;
-    /* background-color: #333; */
-    padding: 10px;
+    padding: 18px;
     position: fixed;
     width: 100%;
-    border-bottom: #007018 dotted 2px;
+    /* border-bottom: #007018 dotted 2px; */
+    font-family: Demo;
 }
 
 .nav img{
@@ -29,12 +36,14 @@ html{
     text-decoration: none;
     margin: 0 15px;
     font-size: 18px;
+   
 }
 
 .nav a:hover{
     text-decoration:wavy underline;
     color: #21b802;
-    font-size: 19px;
+    transform: translateY(-10px);
+    transition: 0.3s;
 }
 
 .nav ul{
@@ -80,6 +89,7 @@ html{
     color: #188502;
     margin: 2% 0;
     text-shadow: #188502 0px 0px 10px;
+    font-family: Demo;
 }
 
 .inicio img{
@@ -104,6 +114,7 @@ html{
     color: #dff7da;
     font-size: 2rem;
     margin-left: 2%;
+    font-family: Demo;
 }
 
 .section-cards-hab{
@@ -118,6 +129,7 @@ html{
     flex-direction: column;
     border-radius: 5px;
     margin: 2%;
+    font-family: Demo;
 }
 
 .card-hab:hover{
@@ -181,6 +193,7 @@ html{
     font-size: 2rem;
     margin-left: 2%;
     margin-bottom: 2%;
+    font-family: Demo;
 }
 .sobre-section p{
     color: #dff7da;
