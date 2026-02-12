@@ -55,7 +55,7 @@ html{
 
 .inicio{
     display: flex;
-    height: 85vh;
+    height: 84vh;
     justify-content: center;
     align-items: center;    
 }
@@ -121,6 +121,7 @@ html{
     display: flex;
     margin-top: 3%;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .card-hab{
@@ -186,8 +187,62 @@ html{
     margin-top: 5%;
 }
 
-/* =================================================== */
+/* ==================================================== */
 
+.projetos-section h2{
+    color: #dff7da;
+    margin-left: 2%;
+    font-size: 2rem;
+    font-family: Demo;
+}
+
+.cards-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card{
+    display: flex;
+    background-color: #1c1c24;
+    flex-direction: column;
+    border-radius: 10px;
+    margin: 2%;
+    width: 25%;
+}
+
+.card:hover{
+    transform: translateY(-10px);
+    transition: 0.3s;
+}
+
+.card h3{
+    color: #dff7da;
+    text-align: center;
+    padding: 3%;
+    border-bottom: #494949 solid 2px;
+}
+
+.card img{
+    height: auto;
+    border-radius: 10px;
+    margin: 5%;
+}
+
+.card button{
+    background-color: #267417;
+    align-self: center;
+    margin: 3%;
+    padding: 3%;
+    font-size: 1rem;
+    width: 150px;
+    border: #013f0e solid 2px;
+    border-radius: 5px;
+    font-style:oblique;
+    box-shadow: #000000 5px 5px 10px;
+}
+    /* =================================================== */
+    
 .sobre-section h2{
     color: #dff7da;
     font-size: 2rem;
@@ -195,6 +250,7 @@ html{
     margin-bottom: 2%;
     font-family: Demo;
 }
+
 .sobre-section p{
     color: #dff7da;
     font-size: 1.2rem;
