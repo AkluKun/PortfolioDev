@@ -7,6 +7,14 @@ html{
     scroll-behavior: smooth;
 }
 
+h2{
+   color: #dff7da;
+    font-size: 2rem;
+    margin-left: 2%;
+    font-family: Demo;
+
+}
+
 .nav{
     display: flex;
     background-image: url(images/Wallpaper.png);
@@ -104,13 +112,6 @@ html{
     height:88vh;
 }
 
-.habilidades h2{
-    color: #dff7da;
-    font-size: 2rem;
-    margin-left: 2%;
-    font-family: Demo;
-}
-
 .section-cards-hab{
     display: flex;
     margin-top: 3%;
@@ -186,14 +187,7 @@ html{
 /* =====================PROJETOS========================== */
 
 .projetos-section{
-    flex-wrap: wrap;
     height: 92vh;
-}
-.projetos-section h2{
-    color: #dff7da;
-    margin-left: 2%;
-    font-size: 2rem;
-    font-family: Demo;
 }
 
 .cards-container{
@@ -290,23 +284,11 @@ span{
     height: 80vh;
 }
 
-.info h2{
-    display: flex;
-    font-family: demo;
-    color: #dff7da;
-    font-size: 2rem;
-    margin-bottom: 3%;
-}
-
-.sobre h2{
-    margin-left: 2%;
-}
-
 .sobre p{
     display: flex;
     color: #dff7da;
     width: 90%;
-    margin: 0% 5%;
+    margin: 3% 5%;
     font-size: 1.7rem;
     font-family: schoolbell;
 }
@@ -320,11 +302,15 @@ span{
 .contato-section{
     margin: 0% 5%;
 }
+.contato-section h2{
+    margin-bottom: 3%;
+}
 
 .contato h3{
     color: #dff7da;
     font-size: 1.5rem;
     font-family: demo;
+    margin-bottom: 2%;
 }
 
 .contato p{

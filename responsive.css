@@ -63,5 +63,41 @@
 }
 
 @media screen and (max-width: 665px){
+    .card-hab h3{
+        font-size: 0.8rem;
+    }
+    
+    .card h3 {
+        font-size: 1rem;
+    }
+    
+    .card p{
+        font-size: 1rem;
+    }
+    .card button{
+        font-size: 0.8rem;
+        width: 50%;
+    }
+    .inicio-info{
+        margin-top: 5%;
+        font-size: 1.5rem;
+    }
+    .sobre p{
+        font-size: 1.3rem;
+    }
+
+    h2{
+        font-size: 1.7rem;
+    }
+}
+
+@media screen and (max-width: 565px) {
+    .card h3 {
+        font-size: 1rem;
+    }
+    .nav a{
+        font-size: 1rem;
+    }
+    
     
 }
