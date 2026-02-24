@@ -11,26 +11,24 @@ html{
     display: flex;
     background-image: url(images/Wallpaper.png);
     background-size: cover;
-    /* justify-content: center; */
     align-items: center;
-    padding: 18px;
+    padding: 1% 0% 2.2% 0%;
     position: fixed;
     width: 100%;
-    /* border-bottom: #007018 dotted 2px; */
     font-family: Demo;
 }
 
 .nav img{
-    height: 40px;
-    width: auto;
-    margin-right: 20px;
+    height: auto;
+    width: 4%;
+    margin-right: 2%;
 }
 
 .nav a{
     color: white;
     text-decoration: none;
-    margin: 0 15px;
-    font-size: 18px;
+    margin: 0% 10px;
+    font-size: 1.3rem;
    
 }
 
@@ -46,11 +44,11 @@ html{
     list-style: none;
 }
 
-/* ======================================================== */
+/* =======================INICIO============================== */
 
 .inicio{
     display: flex;
-    height: 84vh;
+    height: 97vh;
     justify-content: center;
     align-items: center; 
 }
@@ -61,7 +59,7 @@ html{
     flex-direction: column;
     font-size: 2rem;
     color:#dff7da;
-    margin: 3%;   
+    margin: 3% 5%;   
 }
 
 .inicio-info a{
@@ -92,19 +90,18 @@ html{
     display: flex;
     height: 65%;
     width: auto;
-    margin-left: 4%;
-    margin-top: 4%;
+    margin: 4% 5% 0 0;
     border-radius: 50px;
     border: #00b828c0 solid 1px;
     box-shadow: #038b0a79 10px 10px 20px;
 }
 
-/* ================================================== */
+/* =================HABILIDADES================================= */
 
 .habilidades{
     display: flex;
     flex-direction: column;
-    height: 79vh;
+    height:88vh;
 }
 
 .habilidades h2{
@@ -128,6 +125,7 @@ html{
     border-radius: 5px;
     margin: 2%;
     font-family: Demo;
+    width: 17%;
 }
 
 .card-hab:hover{
@@ -153,7 +151,7 @@ html{
 
 .card-hab img{
     height: auto;
-    width: 200px;
+    width: auto;
     padding: 10%;
 }
 
@@ -161,6 +159,7 @@ html{
     color: #dff7da;
     text-align: center;
     padding: 5%;
+    font-size: 1.5rem;
 }
 
 .card-hab.html h3{
@@ -184,11 +183,11 @@ html{
     margin-top: 5%;
 }
 
-/* ==================================================== */
+/* =====================PROJETOS========================== */
 
 .projetos-section{
-    height: 81vh;
     flex-wrap: wrap;
+    height: 92vh;
 }
 .projetos-section h2{
     color: #dff7da;
@@ -224,7 +223,6 @@ html{
     box-shadow: #6acaf7 10px 10px 20px;
         border: #6acaf7 dashed 2px;
 }
-
 .card:hover{
     transform: translateY(-10px);
     transition: 0.3s;
@@ -232,7 +230,6 @@ html{
 
 .card h3{
     color: #dff7da;
-    text-align: center;
     margin-left: 2%;
     padding: 3%;
     font-size: 1.5rem;
@@ -285,7 +282,7 @@ span{
     color: #188d00b0;
     font-family: demo;
 }
-    /* =================================================== */
+    /* =================SOBRE/CONTATO==================== */
     
 .info{
     display: flex;
@@ -309,7 +306,7 @@ span{
     display: flex;
     color: #dff7da;
     width: 90%;
-    margin: 0% 4%;
+    margin: 0% 5%;
     font-size: 1.7rem;
     font-family: schoolbell;
 }
@@ -321,19 +318,19 @@ span{
 }
 
 .contato-section{
-    margin-left: 4%;
+    margin: 0% 5%;
 }
 
 .contato h3{
     color: #dff7da;
-    font-family: demo;
     font-size: 1.5rem;
+    font-family: demo;
 }
 
 .contato p{
+    color: #dff7da;
     font-size: 1.5rem;
     font-family: schoolbell;
-    color: #dff7da;
 }
 
 .contato a{
