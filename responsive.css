@@ -1,103 +1,160 @@
 @media screen and (max-width: 1070px) {
-    .inicio img{
+    .inicio img {
         width: 50%;
         height: auto;
         margin-right: 5%;
     }
 
-    .inicio-info{
+    .inicio-info {
         margin-top: 4%;
         font-size: 1.8rem;
     }
 
-    .section-cards-hab{
+    .section-cards-hab {
         margin-top: 8%;
     }
 
-    .cards-container .card2 img{
-       margin-top: 15%;
+    .cards-container .card2 img {
+        margin-top: 15%;
     }
-    
-    .card-hab h3{
+
+    .card-hab h3 {
         font-size: 1.2rem;
     }
-    
+
 }
 
 @media screen and (max-width: 860px) {
-    .nav a{
+    .nav a {
         font-size: 1.2rem;
     }
-    .inicio img{
+
+    .inicio img {
         width: 45%;
         height: auto;
     }
-    
-    .inicio-info{
+
+    .inicio-info {
         margin-top: 5%;
         font-size: 1.8rem;
     }
-    
-    .section-cards-hab{
+
+    .section-cards-hab {
         margin-top: 7%;
     }
-    
-    .cards-container .card2 img{
+
+    .cards-container .card2 img {
         margin-top: 16%;
     }
-    .card-hab h3{
+
+    .card-hab h3 {
         font-size: 1.1rem;
     }
 }
 
-@media screen and (max-width: 764px){
+@media screen and (max-width: 764px) {
     .card h3 {
         font-size: 1.3rem;
     }
-    .section-cards-hab{
+
+    .section-cards-hab {
         margin-top: 11%;
     }
-    .card-hab h3{
+
+    .card-hab h3 {
         font-size: 1rem;
     }
 }
 
-@media screen and (max-width: 665px){
-    .card-hab h3{
+@media screen and (max-width: 665px) {
+    .nav a {
+        font-size: 1rem;
+    }
+
+    .nav {
+        padding: 3%;
+    }
+
+    .section-cards-hab {
+        margin-top: 20%;
+    }
+
+    .card-hab h3 {
         font-size: 0.8rem;
     }
-    
+
     .card h3 {
         font-size: 1rem;
     }
-    
-    .card p{
+
+    .card p {
         font-size: 1rem;
     }
-    .card button{
+
+    .card button {
         font-size: 0.8rem;
         width: 50%;
     }
-    .inicio-info{
+
+    .inicio-info {
         margin-top: 5%;
         font-size: 1.5rem;
     }
-    .sobre p{
+
+    .sobre p {
         font-size: 1.3rem;
     }
 
-    h2{
-        font-size: 1.7rem;
+    .cards-container {
+        margin-top: 17%;
+    }
+
+    .cards-container .card2 img {
+        margin-top: 5%;
+    }
+
+    h2 {
+        font-size: 1.6rem;
     }
 }
 
 @media screen and (max-width: 565px) {
-    .card h3 {
+    .nav a {
         font-size: 1rem;
     }
-    .nav a{
-        font-size: 1rem;
+
+    .nav {
+        padding: 3%;
+    }
+
+    .card-hab h3 {
+        font-size: 0.7rem;
+    }
+
+    .section-cards-hab {
+        margin-top: 22%;
+    }
+
+    .habilidades {
+        height: 90vh;
+
+    }
+
+    .cards-container .card2 img {
+        margin-top: 5%;
     }
     
-    
+    .cards-container {
+        margin-top: 20%;
+
+    }
+
+    h2 {
+        font-size: 1.4rem;
+    }
+
+    .inicio-info {
+        margin-top: 5%;
+        font-size: 1.3rem;
+    }
 }
