@@ -241,7 +241,8 @@ h2{
 }
 
 .card img{
-    height: auto;
+    max-height: auto;
+    width: 90%;
     border-radius: 10px;
     margin: 5%;
 }

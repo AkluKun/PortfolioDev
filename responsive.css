@@ -143,7 +143,7 @@
     .cards-container .card2 img {
         margin-top: 5%;
     }
-    
+
     .cards-container {
         margin-top: 20%;
 
@@ -156,5 +156,82 @@
     .inicio-info {
         margin-top: 5%;
         font-size: 1.3rem;
+    }
+}
+
+@media screen and (max-width: 485px) {
+    h2 {
+        font-size: 1.3rem;
+    }
+
+    .nav a {
+        font-size: 0.9rem;
+    }
+
+    .inicio {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .inicio-info {
+        margin-top: 5%;
+        align-items: center;
+    }
+
+    .inicio img {
+        width: 65%;
+        height: auto;
+        margin-right: 0;
+    }
+
+    .section-cards-hab {
+        flex-direction: column;
+        align-items: center;
+        max-height: 80vh;
+        margin: 7%;
+
+    }
+
+    .card-hab {
+        width: 25%;
+        margin: 5%;
+
+    }
+
+    .cards-container {
+        flex-direction: column;
+        align-items: center;
+        max-height: 60vh;
+    }
+
+    .info-card {
+        width: 100%;
+        height: auto;
+    }
+
+    .card .buttons {
+        flex-direction: column;
+        margin: 5%;
+    }
+
+    .card {
+        width: 60%;
+        height: auto;
+        flex-direction: row;
+    }
+
+    .card img {
+        width: 70%;
+        height: auto;
+    }
+
+    .card p {
+        font-size: 0.9rem;
+    }
+
+    .card button {
+        font-size: 0.9rem;
+        width: 80%;
+        padding: 5%;
     }
 }
