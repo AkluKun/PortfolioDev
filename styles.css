@@ -1,6 +1,7 @@
 body{
     background: url(images/Wallpaper.png) repeat-y;
     background-size: cover;
+    min-height: 100vh;
 }
 
 html{
@@ -9,7 +10,7 @@ html{
 
 h2{
    color: #dff7da;
-    font-size: 2rem;
+    font-size: clamp(1.5rem, 3vw, 2rem);
     margin-left: 2%;
     font-family: Demo;
 
@@ -20,8 +21,7 @@ h2{
     background-image: url(images/Wallpaper.png);
     background-size: cover;
     align-items: center;
-    padding: 1% 0% 2.2% 0%;
-    position: fixed;
+    padding: 1% 0% 2% 0%;
     width: 100%;
     font-family: Demo;
 }
@@ -29,21 +29,21 @@ h2{
 .nav img{
     height: auto;
     width: 4%;
-    margin-right: 2%;
+    margin: 0% 2%;
 }
 
 .nav a{
     color: white;
     text-decoration: none;
-    margin: 0% 10px;
-    font-size: 1.3rem;
+    margin: 0% 15px;
+    font-size: clamp(1rem, 2vw, 1.3rem);
    
 }
 
 .nav a:hover{
     text-decoration:wavy underline;
     color: #21b802;
-    transform: translateY(-10px);
+    transform: translateX(-10px);
     transition: 0.3s;
 }
 
@@ -56,9 +56,10 @@ h2{
 
 .inicio{
     display: flex;
-    height: 97vh;
+    height: 70vh;
     justify-content: center;
     align-items: center; 
+    margin-bottom: 6%;
 }
 
 .inicio-info{
@@ -96,7 +97,7 @@ h2{
 
 .inicio img{
     display: flex;
-    height: 65%;
+    height: 90%;
     width: auto;
     margin: 4% 5% 0 0;
     border-radius: 50px;
@@ -117,6 +118,7 @@ h2{
     margin-top: 3%;
     justify-content: center;
     flex-wrap: wrap;
+    gap: 1rem;
 }
 
 .card-hab{
@@ -194,6 +196,7 @@ h2{
     display: flex;
     justify-content: center;
     margin-top: 2%;
+    gap: 1rem;
 }
 
 .card{
@@ -279,9 +282,9 @@ span{
 }
     /* =================SOBRE/CONTATO==================== */
     
-.info{
+#sobre{
     display: flex;
-    justify-content:space-between;
+    gap: 1rem;
     height: 80vh;
 }
 
@@ -323,3 +326,14 @@ span{
 .contato a{
     text-decoration: none;
 }
+
+/* .cursor {
+  margin-left: 2px;
+  animation: piscar 1s infinite;
+}
+
+@keyframes piscar {
+  0% { opacity: 1; }
+  50% { opacity: 0; }
+  100% { opacity: 1; }
+} */

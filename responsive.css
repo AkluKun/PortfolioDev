@@ -1,68 +1,120 @@
 @media screen and (max-width: 1070px) {
+    .nav {
+        padding: 1% 4% 2.2% 4%;
+    }
+
+    .inicio {
+        padding-top: 4rem;
+        min-height: calc(100vh - 4rem);
+    }
+
     .inicio img {
-        width: 50%;
+        width: 48%;
         height: auto;
-        margin-right: 5%;
+        margin-right: 3%;
     }
 
     .inicio-info {
         margin-top: 4%;
         font-size: 1.8rem;
+        width: 50%;
     }
 
     .section-cards-hab {
         margin-top: 8%;
     }
 
-    .cards-container .card2 img {
-        margin-top: 15%;
+    .card-hab {
+        width: min(220px, 100%);
     }
 
     .card-hab h3 {
         font-size: 1.2rem;
     }
-
 }
 
 @media screen and (max-width: 860px) {
-    .nav a {
-        font-size: 1.2rem;
+    .nav ul {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 0.5rem;
     }
 
-    .inicio img {
-        width: 45%;
-        height: auto;
+    .nav a {
+        font-size: 1.2rem;
+        margin: 0.5rem 0.8rem;
+    }
+
+    .inicio {
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+        min-height: auto;
+        padding-top: 6rem;
     }
 
     .inicio-info {
-        margin-top: 5%;
-        font-size: 1.8rem;
+        width: 90%;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .inicio img {
+        width: 65%;
+        margin: 0;
     }
 
     .section-cards-hab {
-        margin-top: 7%;
+        margin-top: 10%;
     }
 
-    .cards-container .card2 img {
-        margin-top: 16%;
+    .card-hab {
+        width: 45%;
     }
 
     .card-hab h3 {
-        font-size: 1.1rem;
+        font-size: 1.15rem;
     }
 }
 
-@media screen and (max-width: 764px) {
-    .card h3 {
-        font-size: 1.3rem;
+@media screen and (max-width: 768px) {
+    .nav a {
+        font-size: 1.1rem;
     }
 
-    .section-cards-hab {
-        margin-top: 11%;
+    .nav img {
+        width: 10%;
     }
 
-    .card-hab h3 {
-        font-size: 1rem;
+    .cards-container {
+        flex-direction: column;
+        align-items: center;
+        gap: 1.5rem;
+    }
+
+    .card {
+        width: 90%;
+    }
+
+    .card img {
+        width: 100%;
+        margin: 0;
+    }
+
+    .card button {
+        width: 100%;
+    }
+
+    .info {
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+        height: auto;
+    }
+
+    .meio {
+        width: 100%;
+        padding: 0 2%;
     }
 }
 
@@ -72,19 +124,23 @@
     }
 
     .nav {
-        padding: 3%;
+        padding: 3% 4%;
     }
 
     .section-cards-hab {
-        margin-top: 20%;
+        margin-top: 18%;
+    }
+
+    .card-hab {
+        width: 70%;
     }
 
     .card-hab h3 {
-        font-size: 0.8rem;
+        font-size: 1rem;
     }
 
     .card h3 {
-        font-size: 1rem;
+        font-size: 1.1rem;
     }
 
     .card p {
@@ -92,61 +148,49 @@
     }
 
     .card button {
-        font-size: 0.8rem;
-        width: 50%;
-    }
-
-    .inicio-info {
-        margin-top: 5%;
-        font-size: 1.5rem;
-    }
-
-    .sobre p {
-        font-size: 1.3rem;
+        font-size: 0.9rem;
+        width: 80%;
     }
 
     .cards-container {
         margin-top: 17%;
-    }
-
-    .cards-container .card2 img {
-        margin-top: 5%;
+        gap: 1.5rem;
     }
 
     h2 {
-        font-size: 1.6rem;
+        font-size: 1.5rem;
+    }
+
+    .inicio-info {
+        font-size: 1.4rem;
     }
 }
 
 @media screen and (max-width: 565px) {
     .nav a {
-        font-size: 1rem;
+        font-size: 0.95rem;
     }
 
-    .nav {
-        padding: 3%;
-    }
-
-    .card-hab h3 {
-        font-size: 0.7rem;
+    .nav img {
+        width: 12%;
     }
 
     .section-cards-hab {
-        margin-top: 22%;
+        margin-top: 20%;
+        gap: 1rem;
     }
 
     .habilidades {
-        height: 90vh;
-
+        height: auto;
     }
 
-    .cards-container .card2 img {
-        margin-top: 5%;
+    .card-hab {
+        width: 100%;
+        max-width: 320px;
     }
 
     .cards-container {
         margin-top: 20%;
-
     }
 
     h2 {
@@ -154,84 +198,116 @@
     }
 
     .inicio-info {
-        margin-top: 5%;
         font-size: 1.3rem;
+    }
+
+    .card button {
+        width: 90%;
     }
 }
 
 @media screen and (max-width: 485px) {
-    h2 {
-        font-size: 1.3rem;
+    .nav {
+        padding: 3% 3%;
     }
 
-    .nav a {
-        font-size: 0.9rem;
+    .nav ul {
+        flex-direction: column;
+        align-items: center;
+        gap: 0.5rem;
     }
 
     .inicio {
         flex-direction: column;
         align-items: center;
+        padding-top: 5rem;
     }
 
     .inicio-info {
-        margin-top: 5%;
-        align-items: center;
+        width: 90%;
+        margin: 0 auto;
     }
 
     .inicio img {
-        width: 65%;
-        height: auto;
-        margin-right: 0;
+        width: 80%;
+        margin: 0;
     }
 
     .section-cards-hab {
         flex-direction: column;
         align-items: center;
-        max-height: 80vh;
         margin: 7%;
-
+        gap: 1rem;
     }
 
     .card-hab {
-        width: 25%;
-        margin: 5%;
+        width: 85%;
+        margin: 0 auto;
+    }
 
+    .projetos-section {
+        margin-bottom: 10%;
     }
 
     .cards-container {
         flex-direction: column;
         align-items: center;
-        max-height: 60vh;
+        max-height: none;
+        width: 100%;
+        margin-top: 8%;
     }
 
-    .info-card {
-        width: 100%;
-        height: auto;
+    .card {
+        width: 90%;
+        flex-direction: column;
+        margin: 1rem 0;
     }
 
     .card .buttons {
         flex-direction: column;
-        margin: 5%;
-    }
-
-    .card {
-        width: 60%;
-        height: auto;
-        flex-direction: row;
+        width: 100%;
+        margin: 1rem 0;
+        gap: 0.8rem;
     }
 
     .card img {
-        width: 70%;
-        height: auto;
+        width: 100%;
+        margin: 0;
     }
 
     .card p {
-        font-size: 0.9rem;
+        font-size: 0.95rem;
+        margin-left: 4%;
     }
 
     .card button {
-        font-size: 0.9rem;
-        width: 80%;
-        padding: 5%;
+        width: 100%;
+    }
+
+    .info {
+        flex-direction: column;
+        align-items: center;
+        padding: 0 1.5rem;
+        height: auto;
+    }
+
+    .meio {
+        width: 100%;
+    }
+
+    .sobre p,
+    .contato p {
+        font-size: 1.1rem;
+        width: 100%;
+        margin: 1rem 0;
+    }
+
+    .contato-section {
+        margin: 0 2%;
+    }
+
+    h2 {
+        font-size: 1.3rem;
+        margin-left: 0;
     }
 }
