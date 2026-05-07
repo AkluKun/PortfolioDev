@@ -1,120 +1,72 @@
 @media screen and (max-width: 1070px) {
-    .nav {
-        padding: 1% 4% 2.2% 4%;
-    }
-
-    .inicio {
-        padding-top: 4rem;
-        min-height: calc(100vh - 4rem);
-    }
-
     .inicio img {
-        width: 48%;
+        width: 50%;
         height: auto;
-        margin-right: 3%;
+        margin-right: 5%;
     }
 
     .inicio-info {
         margin-top: 4%;
         font-size: 1.8rem;
-        width: 50%;
     }
 
     .section-cards-hab {
         margin-top: 8%;
     }
 
-    .card-hab {
-        width: min(220px, 100%);
+    .cards-container .card2 img {
+        margin-top: 15%;
     }
 
     .card-hab h3 {
         font-size: 1.2rem;
     }
+
 }
 
 @media screen and (max-width: 860px) {
-    .nav ul {
-        flex-wrap: wrap;
-        justify-content: center;
-        gap: 0.5rem;
-    }
-
     .nav a {
         font-size: 1.2rem;
-        margin: 0.5rem 0.8rem;
     }
 
-    .inicio {
-        flex-direction: column;
-        align-items: center;
-        gap: 1rem;
-        min-height: auto;
-        padding-top: 6rem;
-    }
-
-    .inicio-info {
-        width: 90%;
-        text-align: center;
-        margin: 0 auto;
+    .inicio{
+        height: 85vh;
     }
 
     .inicio img {
-        width: 65%;
-        margin: 0;
-    }
-
-    .section-cards-hab {
-        margin-top: 10%;
-    }
-
-    .card-hab {
         width: 45%;
-    }
-
-    .card-hab h3 {
-        font-size: 1.15rem;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    .nav a {
-        font-size: 1.1rem;
-    }
-
-    .nav img {
-        width: 10%;
-    }
-
-    .cards-container {
-        flex-direction: column;
-        align-items: center;
-        gap: 1.5rem;
-    }
-
-    .card {
-        width: 90%;
-    }
-
-    .card img {
-        width: 100%;
-        margin: 0;
-    }
-
-    .card button {
-        width: 100%;
-    }
-
-    .info {
-        flex-direction: column;
-        align-items: center;
-        gap: 2rem;
         height: auto;
     }
 
-    .meio {
-        width: 100%;
-        padding: 0 2%;
+    .inicio-info {
+        margin-top: 5%;
+        font-size: 1.8rem;
+    }
+
+    .section-cards-hab {
+        margin-top: 7%;
+    }
+
+    .cards-container .card2 img {
+        margin-top: 16%;
+    }
+
+    .card-hab h3 {
+        font-size: 1.1rem;
+    }
+}
+
+@media screen and (max-width: 764px) {
+    .card h3 {
+        font-size: 1.3rem;
+    }
+
+    .section-cards-hab {
+        margin-top: 11%;
+    }
+
+    .card-hab h3 {
+        font-size: 1rem;
     }
 }
 
@@ -124,23 +76,19 @@
     }
 
     .nav {
-        padding: 3% 4%;
+        padding: 3%;
     }
 
     .section-cards-hab {
-        margin-top: 18%;
-    }
-
-    .card-hab {
-        width: 70%;
+        margin-top: 20%;
     }
 
     .card-hab h3 {
-        font-size: 1rem;
+        font-size: 0.8rem;
     }
 
     .card h3 {
-        font-size: 1.1rem;
+        font-size: 1rem;
     }
 
     .card p {
@@ -148,49 +96,65 @@
     }
 
     .card button {
-        font-size: 0.9rem;
-        width: 80%;
+        font-size: 0.8rem;
+        width: 50%;
+    }
+
+    .inicio-info {
+        margin-top: 5%;
+        font-size: 1.5rem;
+    }
+
+    .sobre p {
+        font-size: 1.3rem;
     }
 
     .cards-container {
         margin-top: 17%;
-        gap: 1.5rem;
+    }
+
+    .cards-container .card2 img {
+        margin-top: 5%;
     }
 
     h2 {
-        font-size: 1.5rem;
-    }
-
-    .inicio-info {
-        font-size: 1.4rem;
+        font-size: 1.6rem;
     }
 }
 
 @media screen and (max-width: 565px) {
     .nav a {
-        font-size: 0.95rem;
+        font-size: 1rem;
     }
 
-    .nav img {
-        width: 12%;
+    .nav {
+        padding: 3%;
+    }
+
+    .card-hab{
+        width: 20%;
+        margin: 5%;
+    }
+
+    .card-hab h3 {
+        font-size: 0.7rem;
     }
 
     .section-cards-hab {
-        margin-top: 20%;
-        gap: 1rem;
+        margin-top: 5%;
     }
 
     .habilidades {
-        height: auto;
+        height: 90vh;
     }
 
-    .card-hab {
-        width: 100%;
-        max-width: 320px;
+    .cards-container .card2 img {
+        margin-top: 5%;
     }
 
     .cards-container {
         margin-top: 20%;
+
     }
 
     h2 {
@@ -198,116 +162,207 @@
     }
 
     .inicio-info {
+        margin-top: 5%;
         font-size: 1.3rem;
-    }
-
-    .card button {
-        width: 90%;
     }
 }
 
-@media screen and (max-width: 485px) {
-    .nav {
-        padding: 3% 3%;
+@media screen and (max-width: 500px) {
+    .inicio{
+        height: 92vh;
     }
 
-    .nav ul {
-        flex-direction: column;
-        align-items: center;
-        gap: 0.5rem;
+    .habilidades {
+        height: 95vh;
     }
-
-    .inicio {
-        flex-direction: column;
-        align-items: center;
-        padding-top: 5rem;
-    }
-
-    .inicio-info {
-        width: 90%;
-        margin: 0 auto;
-    }
-
-    .inicio img {
-        width: 80%;
-        margin: 0;
-    }
-
-    .section-cards-hab {
-        flex-direction: column;
-        align-items: center;
-        margin: 7%;
-        gap: 1rem;
-    }
-
     .card-hab {
-        width: 85%;
-        margin: 0 auto;
+        width: 24%;
+        margin: 5%;
     }
 
-    .projetos-section {
-        margin-bottom: 10%;
+    .projetos-section{
+      margin-bottom: 10%;
     }
 
     .cards-container {
         flex-direction: column;
         align-items: center;
-        max-height: none;
-        width: 100%;
-        margin-top: 8%;
+        height: 60vh;
     }
 
-    .card {
-        width: 90%;
-        flex-direction: column;
-        margin: 1rem 0;
+    .info-card {
+        width: 100%;
+        height: auto;
     }
 
     .card .buttons {
         flex-direction: column;
-        width: 100%;
-        margin: 1rem 0;
-        gap: 0.8rem;
+        margin: 3%;
+    }
+
+    .card {
+        width: 60%;
+        height: auto;
+        flex-direction: row;
+        margin: 2%;
     }
 
     .card img {
-        width: 100%;
-        margin: 0;
-    }
-
-    .card p {
-        font-size: 0.95rem;
-        margin-left: 4%;
-    }
-
-    .card button {
-        width: 100%;
-    }
-
-    .info {
-        flex-direction: column;
-        align-items: center;
-        padding: 0 1.5rem;
+        width: 70%;
         height: auto;
     }
 
-    .meio {
-        width: 100%;
+    .card p {
+        font-size: 0.9rem;
     }
 
-    .sobre p,
-    .contato p {
+    .card button {
+        font-size: 0.8rem;
+        width: 70%;
+        padding: 5%;
+    }
+
+    .meio p{
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (max-width: 485px) {
+
+    .nav a {
+        font-size: 0.8rem;
+    }
+
+    .inicio {
+        flex-direction: column;
+        align-items: center;
+        height: 95vh;
+    }
+
+    .inicio-info {
+        margin-top: 1%;
+        align-items: center;
+    }
+    .inicio img {
+        width: 60%;
+        height: auto;
+        margin-right: 0;
+    }
+
+    
+    .habilidades {
+        height: 95vh;
+    }
+    
+    .section-cards-hab {
+        flex-direction: column;
+        align-items: center;
+        max-height: 80vh;
+        margin: 7%;
+    }
+
+    .card-hab {
+        width: 30%;
+        margin: 5%;
+    }
+
+    .projetos-section{
+      margin-bottom: 10%;
+    }
+
+    .cards-container {
+        flex-direction: column;
+        align-items: center;
+        max-height: 60vh;
+    }
+
+    .info-card {
+        width: 100%;
+        height: auto;
+    }
+
+    .card .buttons {
+        flex-direction: column;
+        margin: 3%;
+    }
+
+    .card {
+        width: 60%;
+        height: auto;
+        flex-direction: row;
+        margin: 2%;
+    }
+
+    .card img {
+        width: 70%;
+        height: auto;
+    }
+
+    .card p {
+        font-size: 0.9rem;
+    }
+
+    .card button {
+        font-size: 0.8rem;
+        width: 70%;
+        padding: 5%;
+    }
+
+    .meio p{
         font-size: 1.1rem;
+    }
+
+}
+
+@media screen and (max-width: 400px) {
+    .nav ul{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .nav a {
+        font-size: 1rem;
+    }
+
+    .inicio {
+        height: 95vh;
+    }
+
+    .inicio-info {
+        margin-top: 1%;
+        align-items: center;
+    }
+
+    .inicio img {
+        width: 70%;
+        height: auto;
+        margin-right: 0;
+    }
+    .cards-container{
+        margin-top: 30%;
+    }
+    .card{
+        width: 70%;
+        height: auto;
+        margin: 2%;
+    }
+    .card img {
         width: 100%;
-        margin: 1rem 0;
+        height: auto;
     }
-
-    .contato-section {
-        margin: 0 2%;
+    .buttons{
+        flex-direction: column;
+        margin: 3%;
     }
-
-    h2 {
-        font-size: 1.3rem;
-        margin-left: 0;
+    .info{
+        flex-direction: column;
+        margin-top: 25%;
+    }
+    .meio p{
+        font-size: 1.2rem;
+    }
+    .meio{
+        align-items: baseline;
+        width: 100%;
     }
 }

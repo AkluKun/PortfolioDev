@@ -1,7 +1,6 @@
 body{
     background: url(images/Wallpaper.png) repeat-y;
     background-size: cover;
-    min-height: 100vh;
 }
 
 html{
@@ -10,7 +9,7 @@ html{
 
 h2{
    color: #dff7da;
-    font-size: clamp(1.5rem, 3vw, 2rem);
+    font-size: 2rem;
     margin-left: 2%;
     font-family: Demo;
 
@@ -28,22 +27,22 @@ h2{
 
 .nav img{
     height: auto;
-    width: 4%;
-    margin: 0% 2%;
+    width: 5%;
+    margin-right: 2%;
 }
 
 .nav a{
     color: white;
     text-decoration: none;
-    margin: 0% 15px;
-    font-size: clamp(1rem, 2vw, 1.3rem);
+    margin: 0% 10px;
+    font-size: 1.3rem;
    
 }
 
 .nav a:hover{
     text-decoration:wavy underline;
     color: #21b802;
-    transform: translateX(-10px);
+    transform: translateY(-10px);
     transition: 0.3s;
 }
 
@@ -56,10 +55,9 @@ h2{
 
 .inicio{
     display: flex;
-    height: 70vh;
-    justify-content: center;
+    height: 82vh;
+    justify-content:space-evenly;
     align-items: center; 
-    margin-bottom: 6%;
 }
 
 .inicio-info{
@@ -68,13 +66,14 @@ h2{
     flex-direction: column;
     font-size: 2rem;
     color:#dff7da;
-    margin: 3% 5%;   
+    margin: 3% 3%;   
 }
 
 .inicio-info a{
     color: #dff7da;
     text-decoration: none;
 }
+
 
 .inicio-info button{
     background-color: #267417;
@@ -88,6 +87,12 @@ h2{
     box-shadow: #000000 10px 10px 10px;
 }
 
+.inicio-info button:hover{
+    background-color: #188502;
+    transform: translateY(-5px);
+    transition: 0.3s;
+}
+
 .inicio-info h1{
     color: #188502;
     margin: 2% 0;
@@ -97,9 +102,9 @@ h2{
 
 .inicio img{
     display: flex;
-    height: 90%;
+    height: 70%;
     width: auto;
-    margin: 4% 5% 0 0;
+    margin: 2%;
     border-radius: 50px;
     border: #00b828c0 solid 1px;
     box-shadow: #038b0a79 10px 10px 20px;
@@ -118,7 +123,6 @@ h2{
     margin-top: 3%;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 1rem;
 }
 
 .card-hab{
@@ -196,7 +200,6 @@ h2{
     display: flex;
     justify-content: center;
     margin-top: 2%;
-    gap: 1rem;
 }
 
 .card{
@@ -282,9 +285,9 @@ span{
 }
     /* =================SOBRE/CONTATO==================== */
     
-#sobre{
+.info{
     display: flex;
-    gap: 1rem;
+    justify-content:space-between;
     height: 80vh;
 }
 
