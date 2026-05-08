@@ -295,7 +295,7 @@ span{
     color: #dff7da;
     width: 90%;
     margin: 3% 5%;
-    font-size: 1.7rem;
+    font-size: 1.4rem;
     font-family: schoolbell;
 }
 
@@ -314,14 +314,14 @@ span{
 
 .contato h3{
     color: #dff7da;
-    font-size: 1.5rem;
+    font-size: 1rem;
     font-family: demo;
     margin-bottom: 2%;
 }
 
 .contato p{
     color: #dff7da;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     font-family: schoolbell;
 }
 
@@ -329,6 +329,25 @@ span{
     text-decoration: none;
 }
 
+/* ======================================================  */
+
+#topo {
+    height: 6%;
+    width:  3%;
+    position: fixed;
+    bottom:30px;
+    right: 30px;
+    background-color: #279e0f;
+    border-radius: 50%;
+    border: #013f0e solid 2px;
+    font-size: 1rem;
+}
+
+#topo:hover {
+    background-color: #2bc40d;
+    transform: translateY(-5px);
+    transition: 0.3s;
+}
 /* .cursor {
   margin-left: 2px;
   animation: piscar 1s infinite;
