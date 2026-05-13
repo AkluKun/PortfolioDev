@@ -55,7 +55,7 @@ h2{
 
 .inicio{
     display: flex;
-    height: 82vh;
+    height: 85vh;
     justify-content:space-evenly;
 }
 
@@ -287,7 +287,7 @@ span{
 .info{
     display: flex;
     justify-content:space-between;
-    height: 80vh;
+    height: 60vh;
 }
 
 .sobre p{
@@ -329,7 +329,43 @@ span{
     text-decoration: none;
 }
 
-/* ======================================================  */
+/* =============footer=================== */
+
+.footer{
+    display: flex;
+    background-color: #0c0d14;
+    height: 30vh;
+    width: 100%;
+    color: #dff7da;
+    justify-content: center;    
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    border-top: #00b828 solid 2px;
+    box-shadow: #00b828 0px -5px 20px;
+}
+
+.footer p{
+    font-size: 1.2rem;
+    font-family: schoolbell;
+}
+
+.footer .sociais{
+    display: flex;
+    margin: 2%;
+}
+
+.footer .sociais a{
+    fill: #dff7da;
+}
+
+.footer .sociais img{
+    margin: 0% 10px;
+    height: 30px;
+    width: auto;
+}
+
+/* ================botao-topo======================================  */
 
 #topo {
     height: 6%;
